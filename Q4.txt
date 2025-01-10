@@ -1,0 +1,22 @@
+Q4
+i Virtualization is the creation of a virtual version of an actual piece of technology, such as an operating system (OS).
+ 
+Oracle VM VirtualBox
+Citrix Hypervisor
+
+ii.
+Cost saving
+Flexibility & Scalability
+Enhanced Disaster Recovery
+Simplified Management
+Improved Resource Utilization
+
+iii.
+
+Git is a distributed version control system used to track changes in files and code locally. It allows developers to manage code history, branches, and collaborate in a decentralized manner. While
+GitHub is a cloud-based platform that hosts Git repositories, enabling remote collaboration. It offers features like pull requests, issue tracking, and code sharing for teams and open-source projects.
+
+iv.
+Distributed Nature
+Branching and Merging
+Efficient Collaboration
