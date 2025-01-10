@@ -1,0 +1,15 @@
+Q3
+a.  The kernel is the core part of an operating system that manages system resources and facilitates communication between hardware and software. It acts as an intermediary between applications and the computer hardware, ensuring that both work together efficiently.
+
+
+ 1. **Process Management**: - The kernel is responsible for creating, scheduling, and terminating processes. It ensures that processes run efficiently and fairly by allocating CPU time. - It manages process states (running, waiting, etc.) and coordinates multitasking, allowing multiple processes to run concurrently without interfering with each other. 
+2. **Memory Management**: - The kernel manages the system’s memory, allocating memory to processes and ensuring that each process gets its own space. - It handles both physical memory (RAM) and virtual memory, which allows the system to use disk storage as an extension of RAM (via techniques like paging or swapping). - It ensures memory protection, preventing processes from accessing memory allocated to other processes.
+ 3. **Device Management**: - The kernel manages communication between the system and hardware devices (such as printers, storage devices, keyboards, and network interfaces). - It uses device drivers, which are specialized programs that translate OS-level commands into device-specific instructions. - The kernel abstracts hardware details, so applications don’t need to interact directly with the hardware.
+ 4. **File System Management**: - The kernel provides a file system to manage data storage, enabling users and programs to store and retrieve data in an organized manner. - It handles file creation, deletion, reading, writing, and access control (e.g., permissions for who can read or modify files). - It manages directories and ensures that data is stored efficiently, with features like file caching and disk management.
+ 5. **System Security and Access Control**: - The kernel enforces security mechanisms, such as user authentication and authorization, to protect sensitive resources. - It ensures that processes cannot access or modify the memory or data of other processes, enforcing process isolation. - It manages system calls, limiting access to critical resources and maintaining the integrity and confidentiality of the system.
+ 6. **Inter-process Communication (IPC)**: - The kernel facilitates communication between processes (inter-process communication or IPC). This allows processes to exchange data or synchronize their actions. - IPC mechanisms include pipes, message queues, shared memory, and semaphores. 
+
+3b Open source kernels are the core components of operating systems that are freely available for anyone to use, modify, and distribute. They form the bridge between the hardware and software of a computer, managing system resources and enabling communication between hardware and software components.
+
+3c. Transparency
+    Accountability
